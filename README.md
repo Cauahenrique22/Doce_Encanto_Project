@@ -1,6 +1,7 @@
 # Doce Encanto 🍫
 
 Desenvolvedor: Cauã Henrique
+
 Este é um site simples de e-commerce para uma loja de brownies no pote chamada **Doce Encanto**.
 
 ## Funcionalidades
