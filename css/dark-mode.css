@@ -1,0 +1,54 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    --bg-color: #1a1a1a;
+    --card-bg: #2d2d2d;
+    --text-color: #f0f0f0;
+    --light-color: #2d2d2d;
+    --dark-color: #f0f0f0;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .product-card,
+body.dark-mode .login-box,
+body.dark-mode .modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid #444;
+}
+
+body.dark-mode .nav a,
+body.dark-mode .close-cart,
+body.dark-mode .cart-item-title,
+body.dark-mode .cart-total {
+    color: var(--text-color);
+}
+
+.dark-mode .product-card,
+.dark-mode .login-box,
+.dark-mode .modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+}
+
+.dark-mode .nav a,
+.dark-mode .close-cart,
+.dark-mode .cart-item-title,
+.dark-mode .cart-total {
+    color: var(--text-color);
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+    background-color: #3d3d3d;
+    color: var(--text-color);
+    border-color: #444;
+}
+
+.dark-mode .products-list th,
+.dark-mode .products-list td {
+    border-bottom-color: #444;
+}
+
+.dark-mode .products-list tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
